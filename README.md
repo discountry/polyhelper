@@ -3,6 +3,8 @@
 ## 项目简介
 PolyHelper 是一个面向 Polymarket 的浏览器辅助插件，会在事件页面标题旁生成“问AI”按钮，帮助你快速复制结构化提问并跳转到 ChatGPT 进行讨论。
 
+![效果预览](preview.png)
+
 ## 获取代码压缩包
 1. 打开项目主页：`https://github.com/discountry/polyhelper`。
 2. 点击页面右上角的 `Code` 按钮，选择 `Download ZIP`。
