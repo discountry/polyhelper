@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "PolyHelper",
+  "author": "Discountry",
+  "homepage_url": "https://github.com/discountry/polyhelper",
+  "version": "0.1.0",
+  "description": "A helper for Polymarket.",
+  "icons": {},
+  "content_scripts": [
+    {
+      "matches": ["https://polymarket.com/event/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": ["clipboardWrite", "tabs"]
+}
